@@ -14,18 +14,13 @@ body {
   font-size: 15px;
 }
 .container {
-  width: 1440px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   margin: auto;
   align-items: center;
   justify-content: center;
-}
-@media (max-width: 575px) {
-  .container {
-    width: 375px;
-  }
+  padding: 1rem;
 }
 .card {
   width: 320px;
